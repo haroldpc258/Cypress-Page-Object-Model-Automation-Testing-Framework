@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Positive LogIn test",
+        "user": {
+            "username": "student",
+            "password": "Password123"
+        }
+    },
+    {
+        "name": "Negative username test",
+        "user": {
+            "username": "incorrectUser ",
+            "password": "Password123 "
+        }
+    },
+    {
+        "name": "Negative password test",
+        "user": {
+            "username": "student",
+            "password": "incorrectPassword"
+        }
+    }
+]
